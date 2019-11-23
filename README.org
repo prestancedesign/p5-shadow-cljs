@@ -1,9 +1,11 @@
-* ClojureScript [[https://p5js.org/][p5.js]] example with Shadow-CLJS
-  Simple example from the official p5.js *Get started* page https://p5js.org/get-started/
+* ClojureScript [[https://p5js.org/][p5.js]] example using Shadow-CLJS
+  Simple example from the official documentation page https://p5js.org/get-started/.
+
+  p5.js is JavaScript library for creative coding.
 ** Setup
 #+begin_src
-$ yarn | npm install
+$ yarn || npm install
 $ npx shadow-cljs watch app
 #+end_src
 
-open browser at http://localhost:3000
+open browser at [[http://localhost:3000][http://localhost:3000]]
